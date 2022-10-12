@@ -9,6 +9,6 @@ if git describe --tags --exact-match HEAD &>/dev/null; then
 	new_sha=$(shasum -a 256 README.md)
 
 	if [[ ${new_sha} != "${old_sha}" ]]; then
-		git commit -m "Update README" README.md
+		git commit --amend --no-edit README.md
 	fi
 fi
