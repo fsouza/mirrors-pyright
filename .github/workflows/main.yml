@@ -15,7 +15,7 @@ jobs:
         with:
           python-version: "3.x"
 
-      - run: pip install pre-commit-mirror-maker
+      - run: pip install pre-commit-mirror-maker setuptools
 
       - name: set git config
         run: |
