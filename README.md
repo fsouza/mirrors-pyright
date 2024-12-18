@@ -11,7 +11,7 @@ Sample `.pre-commit-config.yaml`
 
 ```yaml
 -   repo: https://github.com/fsouza/mirrors-pyright
-    rev: v1.1.390
+    rev: v1.1.391
     hooks:
     -   id: pyright
 ```
